@@ -10,6 +10,7 @@
 
 
 ## Write a short comment describing this function
+## Nearly a direct copy of the example given in the instructions
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -32,7 +33,8 @@ makeCacheMatrix <- function(x = matrix()) {
         cache
     }
 
-    list(setMatrix = setMatrix, getMatrix = getMatrix, cacheInverse = cacheInverse, getInverse = getInverse)
+    list(setMatrix = setMatrix, getMatrix = getMatrix, 
+            cacheInverse = cacheInverse, getInverse = getInverse)
 
 }
 
